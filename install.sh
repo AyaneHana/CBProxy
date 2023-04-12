@@ -15,4 +15,4 @@ wget -q https://github.com/AyaneHana/CBProxy/raw/main/cbproxy
 sleep 1
 echo -e "${GREEN}Proxy Installed${ENDCOLOR}"
 echo -e "${GREEN}Execute proxy with this command: ./proxy_linux${ENDCOLOR}"
-chmod +x proxy_linux
+chmod +x cbproxy
