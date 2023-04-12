@@ -11,7 +11,7 @@ if [ -f "proxy_linux" ]; then
     sleep 1
     echo -e "${GREEN}Getting proxy...${ENDCOLOR}"
 fi
-wget -q https://github.com/Nubiza/proxy/raw/main/proxy_linux
+wget -q https://github.com/AyaneHana/CBProxy/blob/main/cbproxy?raw=true
 sleep 1
 echo -e "${GREEN}Proxy Installed${ENDCOLOR}"
 echo -e "${GREEN}Execute proxy with this command: ./proxy_linux${ENDCOLOR}"
