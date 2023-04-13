@@ -17,3 +17,4 @@ echo -e "${GREEN}Proxy Installed${ENDCOLOR}"
 figlet -f standard CBPROXY
 echo -e "${GREEN}Execute proxy with this command: ./cbproxy${ENDCOLOR}"
 chmod +x cbproxy
+rm -rf install.sh
