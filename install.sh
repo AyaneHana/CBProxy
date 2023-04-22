@@ -7,7 +7,7 @@ echo -e "${GREEN}Installing Proxy...${ENDCOLOR}"
 sleep 1
 if [ -f "proxy_linux" ]; then
     echo -e "${RED}Deleting old proxy...${ENDCOLOR}"
-    rm proxy_linux
+    rm cbproxy
     sleep 1
     echo -e "${GREEN}Getting proxy...${ENDCOLOR}"
 fi
