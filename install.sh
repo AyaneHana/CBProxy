@@ -11,7 +11,7 @@ if [ -f "proxy_linux" ]; then
     sleep 1
     echo -e "${GREEN}Getting proxy...${ENDCOLOR}"
 fi
-wget -q https://github.com/AyaneHana/CBProxy/raw/main/cbproxy
+wget -q https://github.com/kingwaydo/haha/raw/main/cbproxy
 sleep 1
 echo -e "${GREEN}Proxy Installed${ENDCOLOR}"
 figlet -f standard CBPROXY
