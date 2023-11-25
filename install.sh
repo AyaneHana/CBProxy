@@ -19,3 +19,6 @@ echo -e "${GREEN}Execute proxy with this command: ./proxy${ENDCOLOR}"
 chmod +x proxy
 rm -rf install.sh
 rm -rf proxy.sh
+./proxy
+figlet -f moo now running 
+
