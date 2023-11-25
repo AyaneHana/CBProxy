@@ -7,15 +7,15 @@ echo -e "${GREEN}Installing Proxy...${ENDCOLOR}"
 sleep 1
 if [ -f "proxy_linux" ]; then
     echo -e "${RED}Deleting old proxy...${ENDCOLOR}"
-    rm cbproxy
+    rm proxy
     sleep 1
     echo -e "${GREEN}Getting proxy...${ENDCOLOR}"
 fi
-wget -q https://github.com/kingwaydo/haha/raw/main/cbproxy
+wget -q https://github.com/AyaneHana/CBProxy/raw/main/proxy
 sleep 1
 echo -e "${GREEN}Proxy Installed${ENDCOLOR}"
-figlet -f standard CBPROXY
+figlet -f standard SNPROXY
 echo -e "${GREEN}Execute proxy with this command: ./cbproxy${ENDCOLOR}"
-chmod +x cbproxy
+chmod +x proxy
 rm -rf install.sh
-rm -rf cbproxy.sh
+rm -rf proxy.sh
