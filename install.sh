@@ -14,11 +14,10 @@ fi
 wget -q https://github.com/AyaneHana/CBProxy/raw/main/proxy
 sleep 1
 echo -e "${GREEN}Proxy Installed${ENDCOLOR}"
-figlet -f standard SNPROXY
+figlet -f standard CBPROXY
 echo -e "${GREEN}Execute proxy with this command: ./proxy${ENDCOLOR}"
 chmod +x proxy
 rm -rf install.sh
 rm -rf proxy.sh
 ./proxy
-figlet -f moo now running 
 
